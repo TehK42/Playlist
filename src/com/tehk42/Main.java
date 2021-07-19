@@ -50,7 +50,7 @@ public class Main {
 
     }
 
-    private static void play(LinkedList<Song> playList) {
+    private static void play(List<Song> playList) {
         Scanner scanner = new Scanner(System.in);
         boolean quit = false;
         boolean forward = true;
@@ -137,7 +137,7 @@ public class Main {
         }
     }
 
-    private static void printPlayList(LinkedList<Song> playList) {
+    private static void printPlayList(List<Song> playList) {
         Iterator<Song> i = playList.iterator();
         System.out.println("============================");
         while(i.hasNext()) {
