@@ -3,7 +3,7 @@ package com.tehk42;
 import java.util.*;
 
 public class Main {
-    private static ArrayList<Album> albums = new ArrayList<Album>();
+    private static List<Album> albums = new ArrayList<Album>();
     public static void main(String[] args) {
 	// write your code here
         Album album = new Album("The Black Parade", "My Chemical Romance");
