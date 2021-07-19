@@ -2,6 +2,7 @@ package com.tehk42;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.ListIterator;
 
 public class Album {
@@ -35,7 +36,7 @@ public class Album {
         }
     }
 
-    public boolean addToPlaylist(int trackNumber, LinkedList<Song> playList) {
+    public boolean addToPlaylist(int trackNumber, List<Song> playList) {
         if(trackNumber <= 0 || trackNumber > songs.size()) {
             System.out.println("Track number is out of range");
             return false;
