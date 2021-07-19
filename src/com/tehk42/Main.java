@@ -36,7 +36,7 @@ public class Main {
         album.addSong("Guest House", 4.43);
         albums.add(album);
 
-        LinkedList<Song> playList = new LinkedList<Song>();
+        List<Song> playList = new ArrayList<>();
         albums.get(0).addToPlaylist("Welcome To The Black Parade", playList);
         albums.get(0).addToPlaylist("Mama", playList);
         albums.get(0).addToPlaylist("Sing", playList); //Does not exist

@@ -57,7 +57,7 @@ public class Album {
         return true;
     }
 
-    public boolean addToPlaylist(String title, LinkedList<Song> playList) {
+    public boolean addToPlaylist(String title, List<Song> playList) {
         Song songToAdd = findSong(title);
         if(songToAdd == null) {
             System.out.println("Song does not exist");
